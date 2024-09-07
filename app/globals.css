@@ -6,12 +6,22 @@ html,
 body,
 :root {
   height: 100%;
-}
-
-:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  /* @apply: bg-neutral-900/80; */
+  /* background-color: #212131; */
+  /* background-color: #213131; */
+  background-color: #212125;
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hidden-scrollbar ::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-color-scheme: dark) {
