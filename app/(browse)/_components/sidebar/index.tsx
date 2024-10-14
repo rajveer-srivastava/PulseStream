@@ -1,4 +1,4 @@
-import { getRecommended } from "@/lib/lib/recommended-service";
+import { getRecommended } from "@/lib/recommended-service";
 import { Recommended, RecommendedSkeleton } from "./recommended";
 import { Toggle } from "./toggle";
 import { Wrapper } from "./wrapper";
