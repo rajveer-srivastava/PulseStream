@@ -2,15 +2,12 @@
 
 import { Hint } from "@/components/hint";
 import { Button } from "@/components/ui/button";
-import { Skeleton } from "@/components/ui/skeleton";
 import { useSidebar } from "@/store/use-sidebar";
 import { ArrowLeftFromLine, ArrowRightFromLine } from "lucide-react";
-
 export const Toggle = () => {
   const { collapsed, onExpand, onCollapse } = useSidebar((state) => state);
 
   const label = collapsed ? "Expand" : "Collapse";
-
   return (
     <>
       {collapsed && (

@@ -5,8 +5,9 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { useSidebar } from "@/store/use-sidebar";
 import { Skeleton } from "@/components/ui/skeleton";
-import { UserAvatar } from "@/components/ui/user-avatar";
-import { LiveBadge } from "@/app/live-badge";
+import { UserAvatar } from "@/components/user-avatar";
+import { LiveBadge } from "@/components/live-badge";
+
 interface UserItemProps {
   username: string;
   imageUrl: string;
